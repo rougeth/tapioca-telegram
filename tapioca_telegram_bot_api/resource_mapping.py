@@ -15,54 +15,54 @@ RESOURCE_MAPPING = {
         'resource': 'forwardMessage',
         'docs': 'https://core.telegram.org/bots/api#forwardmessage',
     },
-    'send_photo: {
+    'send_photo': {
         'resource': 'sendPhoto',
         'docs': 'https://core.telegram.org/bots/api#sendphoto',
     },
-    'send_audio: {
+    'send_audio': {
         'resource': 'sendAudio',
         'docs': 'https://core.telegram.org/bots/api#sendaudio',
     },
     'send_document': {
         'resource': 'sendDocument',
         'docs': 'https://core.telegram.org/bots/api#senddocument',
-    }
+    },
     'send_sticker': {
         'resource': 'sendSticker',
         'docs': 'https://core.telegram.org/bots/api#sendsticker',
-    }
+    },
     'send_video': {
         'resource': 'sendVideo',
         'docs': 'https://core.telegram.org/bots/api#sendvideo',
-    }
+    },
     'send_voice': {
         'resource': 'sendVoice',
         'docs': 'https://core.telegram.org/bots/api#sendvoice',
-    }
+    },
     'send_location': {
         'resource': 'sendLocation',
         'docs': 'https://core.telegram.org/bots/api#sendlocation',
-    }
+    },
     'send_venue': {
         'resource': 'sendVenue',
         'docs': 'https://core.telegram.org/bots/api#sendvenue',
-    }
+    },
     'send_contact': {
         'resource': 'sendContact',
         'docs': 'https://core.telegram.org/bots/api#sendcontact',
-    }
+    },
     'send_chat_action': {
         'resource': 'sendChatAction',
         'docs': 'https://core.telegram.org/bots/api#sendchataction',
-    }
+    },
     'get_user_profile_photos': {
         'resource': 'getUserProfilePhotos',
         'docs': 'https://core.telegram.org/bots/api#getuserprofilephotos',
-    }
+    },
     'get_file': {
         'resource': 'getFile',
         'docs': 'https://core.telegram.org/bots/api#getfile',
-    }
+    },
     'kick_chat_member': {
         'resource': 'kickChatMember',
         'docs': 'https://core.telegram.org/bots/api#kickchatmember',
