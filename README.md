@@ -29,10 +29,17 @@ api.send_message().post(data={'chat_id': '123456',
 
 ```
 
+All methods available and its responses are documented [here](https://core.telegram.org/bots/api#available-methods).
+
+#### Important
+
 > We support GET and POST HTTP methods.
+
 _https://core.telegram.org/bots/api#making-requests_
 
-You can use `.get(params={})` or `.post(data={})` with all api methods.
+So you can use `.get(params={})` or `.post(data={})` with all api methods.
+
+---
 
 No more documentation needed.
 
