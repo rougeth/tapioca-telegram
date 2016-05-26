@@ -22,18 +22,5 @@ class TelegramBotApiClientAdapter(JSONAdapterMixin, TapiocaAdapter):
         self.api_root = '{}bot{}'.format(api_root, token)
         return self.api_root
 
-    def get_request_kwargs(self, api_params, *args, **kwargs):
-        params = super(TelegramBotApiClientAdapter, self).get_request_kwargs(
-            api_params, *args, **kwargs)
-
-        return params
-
-    def get_iterator_list(self, response_data):
-        return response_data
-
-    def get_iterator_next_request_kwargs(self, iterator_request_kwargs,
-                                         response_data, response):
-        pass
-
 
 TelegramBotApi = generate_wrapper_from_adapter(TelegramBotApiClientAdapter)
