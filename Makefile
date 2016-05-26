@@ -32,7 +32,7 @@ clean-test:
 	rm -fr htmlcov/
 
 lint:
-	flake8 tapioca-telegram-bot-api tests
+	flake8 tapioca-telegram tests
 
 test:
 	python setup.py test
@@ -41,15 +41,15 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source tapioca-telegram-bot-api setup.py test
+	coverage run --source tapioca-telegramsetup.py test
 	coverage report -m
 	coverage html
 	open htmlcov/index.html
 
 docs:
-	rm -f docs/tapioca-telegram-bot-api.rst
+	rm -f docs/tapioca-telegram.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ tapioca-telegram-bot-api
+	sphinx-apidoc -o docs/ tapioca-telegram
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	open docs/_build/html/index.html

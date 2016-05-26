@@ -5,4 +5,4 @@ __email__ = 'marco@rougeth.com'
 __version__ = '0.1'
 
 
-from .tapioca_telegram_bot_api import TelegramBotApi  # noqa
+from .tapioca_telegram import TelegramBotApi  # noqa
