@@ -7,7 +7,7 @@ pip install tapioca-telegram
 
 ## Documentation
 ``` python
-from tapioca_telegram import TelegramBotApi
+from tapioca_telegram import TelegramBotApi # TODO: TelegramApi
 
 
 api = TelegramBotApi(token=<token>)
