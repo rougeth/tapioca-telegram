@@ -18,7 +18,7 @@ except (IOError, ImportError):
     readme = ''
 
 
-package = 'tapioca_telegram_bot_api'
+package = 'tapioca_telegram'
 requirements = [
     'tapioca-wrapper<0.7.0',
 
@@ -66,22 +66,22 @@ if sys.argv[-1] == 'publish':
 
 
 setup(
-    name='tapioca-telegram-bot-api',
+    name='tapioca-telegram',
     version=get_version(package),
-    description='Telegram Bot API API wrapper using tapioca',
+    description='Telegram API wrapper using tapioca',
     long_description=readme,
     author=get_author(package),
     author_email=get_email(package),
-    url='https://github.com/rougeth/tapioca-telegram-bot-api',
+    url='https://github.com/rougeth/tapioca-telegram',
     packages=[
-        'tapioca_telegram_bot_api',
+        'tapioca_telegram',
     ],
-    package_dir={'tapioca_telegram_bot_api': 'tapioca_telegram_bot_api'},
+    package_dir={'tapioca_telegram': 'tapioca_telegram'},
     include_package_data=True,
     install_requires=requirements,
     license="MIT",
     zip_safe=False,
-    keywords='telegram-bot-api',
+    keywords='telegram-api-bot',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',

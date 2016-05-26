@@ -41,7 +41,7 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source tapioca-telegramsetup.py test
+	coverage run --source tapioca-telegram setup.py test
 	coverage report -m
 	coverage html
 	open htmlcov/index.html
