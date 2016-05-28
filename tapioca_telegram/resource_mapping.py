@@ -1,6 +1,16 @@
 # coding: utf-8
 
 TELEGRAM_BOT_RESOURCE_MAPPING = {
+    # Getting updates
+    'get_updates': {
+        'resource': 'getUpdates',
+        'docs': 'https://core.telegram.org/bots/api#getupdates',
+    },
+    'set_webhook': {
+        'resource': 'setWebhook',
+        'docs': 'https://core.telegram.org/bots/api#setwebhook',
+    },
+
     # Available Methods
     # https://core.telegram.org/bots/api#available-methods
     'get_me': {
