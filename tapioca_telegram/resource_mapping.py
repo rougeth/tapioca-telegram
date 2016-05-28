@@ -1,6 +1,6 @@
 # coding: utf-8
 
-RESOURCE_MAPPING = {
+TELEGRAM_BOT_RESOURCE_MAPPING = {
     # Available Methods
     # https://core.telegram.org/bots/api#available-methods
     'get_me': {

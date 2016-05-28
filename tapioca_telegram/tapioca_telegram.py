@@ -3,11 +3,11 @@
 from tapioca import (TapiocaAdapter, generate_wrapper_from_adapter,
                      JSONAdapterMixin)
 
-from .resource_mapping import RESOURCE_MAPPING
+from .resource_mapping import TELEGRAM_BOT_RESOURCE_MAPPING
 
 
 class TelegramBotApiClientAdapter(JSONAdapterMixin, TapiocaAdapter):
-    resource_mapping = RESOURCE_MAPPING
+    resource_mapping = TELEGRAM_BOT_RESOURCE_MAPPING
 
     def get_api_root(self, api_params):
         if hasattr(self, 'api_root'):
