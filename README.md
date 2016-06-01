@@ -1,5 +1,7 @@
 # Tapioca Telegram
 
+Tapioca flavour for Telegram APIs
+
 ## Installation
 ```
 pip install tapioca-telegram
@@ -37,7 +39,7 @@ All methods available and its responses are documented [here](https://core.teleg
 
 _https://core.telegram.org/bots/api#making-requests_
 
-So you can use `.get(params={})` or `.post(data={})` with all api methods.
+...so you can use `METHOD.get(params={})` or `METHOD.post(data={})` with all api methods.
 
 ---
 
