@@ -2,7 +2,7 @@
 
 __author__ = 'Marco Rougeth'
 __email__ = 'marco@rougeth.com'
-__version__ = '0.1'
+__version__ = '0.2'
 
 
-from .tapioca_telegram import TelegramBotApi  # noqa
+from .tapioca_telegram import TelegramBot  # noqa
