@@ -21,7 +21,6 @@ except (IOError, ImportError):
 package = 'tapioca_telegram'
 requirements = [
     'tapioca-wrapper<0.7.0',
-
 ]
 test_requirements = [
 
