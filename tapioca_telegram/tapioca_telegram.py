@@ -6,7 +6,7 @@ from tapioca import (TapiocaAdapter, generate_wrapper_from_adapter,
 from .resource_mapping import TELEGRAM_BOT_RESOURCE_MAPPING
 
 
-class TelegramBotApiClientAdapter(JSONAdapterMixin, TapiocaAdapter):
+class TelegramBotClientAdapter(JSONAdapterMixin, TapiocaAdapter):
     resource_mapping = TELEGRAM_BOT_RESOURCE_MAPPING
 
     def get_api_root(self, api_params):
@@ -23,4 +23,4 @@ class TelegramBotApiClientAdapter(JSONAdapterMixin, TapiocaAdapter):
         return self.api_root
 
 
-TelegramBotApi = generate_wrapper_from_adapter(TelegramBotApiClientAdapter)
+TelegramBot = generate_wrapper_from_adapter(TelegramBotClientAdapter)
